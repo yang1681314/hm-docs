@@ -2,6 +2,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: '/hm-docs/',
   lang: 'zh-CN',
   title: '面经H5',
   description: '最新Vue3技术栈,Vue3,TS,Pinia,Vant,在线问诊项目,H5',
